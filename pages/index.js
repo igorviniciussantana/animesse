@@ -15,7 +15,7 @@ return(
 {pessoas.map(function(pessoas) {
 const link = ("posts/" + pessoas.id )
   return(
-<div>
+<div key={pessoas.id}>
  <a href={link}><p>{pessoas.nome} {pessoas.sobrenome}</p></a>
  
 </div>
