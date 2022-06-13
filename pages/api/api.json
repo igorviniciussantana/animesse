@@ -1,0 +1,20 @@
+[
+    {"id":1,
+    "nome":"Igor",
+    "sobrenome":"Vinicius",
+    "data_nascimento":"2005-04-28T00:00:00.000Z",
+    "categoria": "tiara"
+    },
+    {"id":2,
+    "nome":"André",
+    "sobrenome":"Luís",
+    "data_nascimento":"2005-03-02T00:00:00.000Z",
+    "categoria": "brinco"
+    },
+    {"id":3,
+    "nome":"Guilherme",
+    "sobrenome":"Tombini",
+    "data_nascimento":"2005-10-08T00:00:00.000Z",
+    "categoria": "brinco"
+    }
+]
