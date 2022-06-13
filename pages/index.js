@@ -12,7 +12,7 @@ return(
   <div>
 <head><title>Catálogo</title></head>
 
-<div class="container">
+<div className="container">
 <h1>Usuários</h1>
 {pessoas.map(function(pessoas) {
 const link = ("posts/" + pessoas.id )
