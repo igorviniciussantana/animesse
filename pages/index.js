@@ -13,7 +13,7 @@ const pessoas = require('./api/api.json');
 const [busca, setBusca] = useState('');
 
 
-const filtraBusca = pessoas.filter(({nome}) => nome.toLowerCase().startsWith(busca.toLowerCase()))
+const filtraBusca = pessoas.filter(({nome}) => nome.toLowerCase().includes(busca.toLowerCase()))
 
 return(
 
